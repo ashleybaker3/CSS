@@ -1,0 +1,17 @@
+.search{
+    color: teal;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.plus{
+    color: white;
+    background-color: turquoise;
+    border-radius: 50%;
+}
+
+.account{
+    color: white;
+    background-color: blue;
+    box-shadow: 3px 3px 0 black;
+}
