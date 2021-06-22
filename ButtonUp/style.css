@@ -1,17 +1,31 @@
+
+
 .search{
-    color: teal;
+    color: rgb(18, 156, 156);
     background-color: white;
     border-radius: 50px;
+    border: solid rgb(18, 156, 156) 1px;
+    padding: 5px 50px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .plus{
     color: white;
     background-color: turquoise;
+    border: none;
     border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 10px 0;
+    font-size: 28px;
 }
 
 .account{
     color: white;
-    background-color: blue;
-    box-shadow: 3px 3px 0 black;
+    background-color: rgb(55, 111, 233);
+    border: solid black 3px;
+    box-shadow: 4px 4px 0 black;
+    padding: 6px 33px;
+    font-size: 18px;
 }
