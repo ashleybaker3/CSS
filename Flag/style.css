@@ -1,0 +1,31 @@
+
+.container{
+    width: 400px;
+    background-color: silver;
+    margin: 0px auto;
+    overflow: hidden;
+    height: auto;
+}
+
+.yellow{
+    height: 100px;
+    width: auto;
+    background: rgb(219, 190, 24);
+}
+
+.blue{
+    vertical-align: bottom;
+    height: 100px;
+    width: auto;
+    background: navy;
+
+}
+
+.circle{
+    vertical-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: white;
+}
+

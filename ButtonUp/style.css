@@ -1,6 +1,7 @@
 
 
 .search{
+    display: block;
     color: rgb(18, 156, 156);
     background-color: white;
     border-radius: 50px;
@@ -11,6 +12,7 @@
 }
 
 .plus{
+    display: block;
     color: white;
     background-color: turquoise;
     border: none;
@@ -22,6 +24,7 @@
 }
 
 .account{
+    display: block;
     color: white;
     background-color: rgb(55, 111, 233);
     border: solid black 3px;
