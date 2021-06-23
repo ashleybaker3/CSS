@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 350px;
+    width: 700px;
+    border: solid lightgray 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.top{
+    background-color: darkturquoise;
+    height: 100px;
+}
+
+.text{
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+
+.profile{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+
+}
+
+.bio{
+    margin: 10px 0;
+}
+
+img{
+    height: 15px;
+    margin-right: 5px;
+}
