@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.nav{
+    height: 50px;
+    margin: 0;
+    color: white;
+    background: darkslategrey;
+    padding: 0 130px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background: darkturquoise;
+    border: solid black 2px;
+    margin-left: 400px;
+    padding: 0 5px;
+}
+
+.contents{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col1{
+    flex: 2;
+}
+
+.col2{
+    flex: 1;
+}
+
+.user{
+    height: 350px;
+    width: 90%;
+    border: solid lightgray 3px;
+    margin-bottom: 30px;
+    
+}
+
+.infoBlocks{
+    height: 100%;
+    width: 90%;
+    border: solid lightgray 3px;
+    margin-bottom: 30px;
+}
+
+.title{
+    background-color: darkslategray;
+    color: white;
+    height: 40px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.top{
+    background-color: darkturquoise;
+    height: 100px;
+}
+
+.textBio{
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+
+.ulCon{
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    justify-content: flex-end;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    margin-bottom: 20px;
+}
+
+.conPics{
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    top: 0.5rem;
+}
+
+img{
+    height: 15px;
+    margin-right: 5px;
+}
+
+#profilePic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid white 3px;
+}
+
+#bio{
+    margin: 5px 0;
+}
+
+#requests{
+    height: 150px;
+}
+
+#response{
+    margin-left: 70px;
+}
+
+#yourConnect{
+    height: 260px;
+}
+
+#con2{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+}
+
+#con500{
+    height: 20px;
+    width: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+}
+
+
+footer{
+    border-top: solid lightgray 3px;
+}
+
+img{
+    height: 15px;
+    margin-right: 5px;
+}
