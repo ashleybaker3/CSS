@@ -1,28 +1,35 @@
-.pink{
+.container{
+    background: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rows{
+    height: 240px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#pink{
     background: rgb(255, 27, 103);
-    margin-bottom: 10px;
-    height: 240px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
 }
 
-.purple{
+#purple{
     background: rebeccapurple;
-    height: 240px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
 
-.blue{
+#blue{
     background: blue;
-    height: 240px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }
 
 img{
