@@ -1,0 +1,111 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+/* Shadow Box Button */
+.btn{
+    display: block;
+    color: white;
+    background-color: rgb(55, 111, 233);
+    border: solid black 3px;
+    box-shadow: 4px 4px 0 black;
+    padding: 6px 33px;
+    font-size: 18px;
+}
+
+/* Flexible Columns */
+.row{
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background: palevioletred;
+}
+
+/* Navbar Preset */
+.nav{
+    height: 50px;
+    margin: 0px auto;
+    padding: 0 15px;
+    background: darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Business Card Presets */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 350px;
+    width: 700px;
+    border: solid lightgray 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.top{
+    background-color: darkturquoise;
+    height: 100px;
+}
+
+.text{
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+
+.profile{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+
+}
+
+.bio{
+    margin: 10px 0;
+}
+
+img{
+    height: 15px;
+    margin-right: 5px;
+}
